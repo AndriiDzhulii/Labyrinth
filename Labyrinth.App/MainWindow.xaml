@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="900" Width="1100">
     <StackPanel Orientation="Vertical">
-        <Canvas x:Name="canvasLabyrinth" Height="800" Width="1100">
+        <Canvas x:Name="canvasLabyrinth" Height="750" Width="1100">
 
         </Canvas>
-        <TextBox x:Name="rbResult" TextWrapping="Wrap" Height="100" Width="500"></TextBox>
+        <TextBox x:Name="rbResult" TextWrapping="Wrap" Height="100" Width="500" Padding="0,0,0,50" VerticalScrollBarVisibility="Visible"></TextBox>
     </StackPanel>
 </Window>

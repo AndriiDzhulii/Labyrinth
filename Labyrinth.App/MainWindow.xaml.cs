@@ -22,7 +22,15 @@ namespace Labyrinth.App
 
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
-            StartProccess();
+            try
+            {
+                StartProccess();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                Application.Current.Shutdown();
+            }
         }
 
         public void StartProccess()
