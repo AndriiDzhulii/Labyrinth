@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labyrinth.App", "Labyrinth.App\Labyrinth.App.csproj", "{B63D47C0-39E7-4EBF-9D84-F449B82AFC55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labyrinth.Models", "Labyrinth.Models\Labyrinth.Models.csproj", "{A4D271CB-A5BA-4B97-8623-D42D054D1BFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B63D47C0-39E7-4EBF-9D84-F449B82AFC55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B63D47C0-39E7-4EBF-9D84-F449B82AFC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B63D47C0-39E7-4EBF-9D84-F449B82AFC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B63D47C0-39E7-4EBF-9D84-F449B82AFC55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D271CB-A5BA-4B97-8623-D42D054D1BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D271CB-A5BA-4B97-8623-D42D054D1BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D271CB-A5BA-4B97-8623-D42D054D1BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D271CB-A5BA-4B97-8623-D42D054D1BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC310670-92B7-4349-8958-EC8B60A0EB96}
+	EndGlobalSection
+EndGlobal
